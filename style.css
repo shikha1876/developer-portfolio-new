@@ -35,7 +35,7 @@ h1{
     margin-bottom: 100px ;
 }
 h2{
-    font-size: 45px;
+    font-size: 40px;
 }
 .download-button{
     text-decoration: none;
@@ -50,4 +50,22 @@ h2{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 100px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 3%;
+    padding-left: 25px;
+    
+    box-shadow: 10px 10px 30px 10px grey;
+    border-radius: 2px;
+    border-left: 7px solid orangered;
+
+}
+.experience-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 50px;
 }
