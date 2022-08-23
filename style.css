@@ -1,5 +1,6 @@
 body{
-    font-family: 'Poppins', sans-serif; margin: 0%;
+    font-family: 'Poppins', sans-serif; 
+    margin: 0%;
 }
 h1{
     font-size: 50px;
@@ -7,9 +8,9 @@ h1{
 .orange{
     color: orange;
 }
-section{
+.flexible-section{
     display: flex;
-    margin-top: 150px;
+   
 }
 .half-width{
     width: 50%;
@@ -31,6 +32,7 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 100px ;
 }
 h2{
     font-size: 45px;
@@ -47,4 +49,5 @@ h2{
 .dream-section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
